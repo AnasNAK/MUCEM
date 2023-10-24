@@ -1,0 +1,804 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css);
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFEEE6;
+
+}
+
+header {
+    background: linear-gradient(to bottom, #FFEEE6, #c7bbb5, transparent);
+    width: 100vw;
+    height: 12vh;
+    box-shadow: 0px 5px 30px 1px black;
+    position: fixed;
+    z-index: 10;
+
+}
+
+header .logo {
+    width: 100px;
+    height: 60px;
+
+}
+
+.desktop-header {
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    gap: 40%;
+    height: 12vh;
+    align-items: center;
+
+
+}
+
+.desktop-header ul {
+    display: flex;
+    list-style-type: none;
+    gap: 3rem;
+
+}
+
+.desktop-header li a {
+    font-family: 'Jeju Hallasan';
+    text-decoration: none;
+    color: black;
+}
+
+
+.sec-1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.sec-1 .left {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    width: 30%;
+
+}
+
+.sec-1 .left .tajin {
+    width: 70%;
+    height: 70vh;
+    border: 6px solid white;
+}
+
+.sec-1 .left p {
+    width: 70%;
+
+}
+
+.Discover {
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Discover img {
+    animation: rotate 8s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.Discover a {
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+    width: 40%;
+    height: 10%;
+    cursor: pointer;
+    padding: 1%;
+    font-family: 'Jeju Hallasan';
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.9s ease;
+    padding: 9px;
+}
+
+.Discover a:hover {
+    background-color: #000000bd;
+    color: #FFEEE6;
+
+}
+
+.right .first {
+    margin-top: 6rem !important;
+    margin: auto;
+    width: 40%;
+    border: 6px solid white;
+}
+
+.right .second {
+    margin: auto;
+    width: 50%;
+    height: 40%;
+    border: 6px solid white;
+}
+
+.right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+
+    width: 40%;
+}
+
+.right .right-1 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.right .right-1 h1 {
+    font-family: 'Jeju Hallasan';
+    font-size: 3rem;
+    width: 80%;
+    margin: 0;
+
+}
+
+.sec-2 {
+    width: 100%;
+    height: 150vh;
+    margin-bottom: 3rem;
+}
+
+.sec-2-1 {
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    background-image: url(../img/background-sec-2.jpg);
+    border-radius: 1rem;
+}
+
+.sec-2-2 {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #ffeee685;
+}
+
+.sec-2-title {
+    font-family: 'Jeju Hallasan';
+    font-size: 4rem;
+    width: auto;
+    text-align: center;
+    padding-top: 2rem;
+
+}
+
+.sec-2-art {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-around;
+
+
+}
+
+.sec-2-left img {
+    z-index: -1;
+    width: 80%;
+
+    border: 6px solid black;
+
+}
+
+.sec-2-left p {
+    z-index: 1;
+    width: 48%;
+    font-family: 'Jeju Hallasan';
+    font-size: x-large;
+    position: absolute;
+    top: 0;
+    left: 1rem;
+}
+
+.sec-2-left {
+    position: relative;
+    height: 68%;
+    width: 45%;
+
+}
+
+.sec-2-right {
+    background-color: #ffeee6b5;
+    padding: 1rem;
+    width: 45%;
+    display: flex;
+    height: 41vw;
+    gap: 2rem;
+}
+
+.right-left img {
+    width: 50%;
+    height: 30%;
+    border: 3px solid black;
+}
+
+.right-left p {
+    font-family: 'Jeju Hallasan';
+    font-size: large;
+
+}
+
+.right-right p {
+    font-family: 'Jeju Hallasan';
+    font-size: large;
+    width: fit-content;
+}
+
+.right-right img {
+    width: 45%;
+    height: 15%;
+    border: 3px solid black;
+}
+
+.right-right {
+    width: fit-content;
+
+}
+
+.sec-3 {
+    background-image: url(../img/zellij.jfif);
+    width: 90%;
+    height: auto;
+    margin: auto;
+
+
+}
+
+.sec-3-1 {
+    width: 100%;
+    height: auto;
+    background-color: #ffeee685;
+    padding-bottom: 2rem;
+}
+
+.sec-3-1 h2 {
+    font-family: 'Jeju Hallasan';
+    font-size: 4rem;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+
+}
+
+.question .toggle {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+
+
+.question img {
+    width: 5%;
+    height: fit-content;
+    cursor: pointer;
+
+}
+
+.answer {
+    display: none;
+}
+
+.hero-FAQ {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+
+
+}
+
+.FAQ {
+    width: 40vw;
+}
+
+.FAQ .box {
+    background-color: #FFEEE6;
+    width: 70%;
+    padding: 0.5rem;
+    border-radius: 1rem;
+
+}
+
+.main-FAQ {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+.FAQ .box P {
+    width: 100%;
+}
+
+.up {
+    display: none;
+}
+
+
+.sec-4 {
+    width: 100%;
+    height: 100vh;
+}
+
+.sec-4 h2 {
+    font-family: 'Jeju Hallasan';
+    font-size: 4rem;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+    align-items: center;
+
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contact img {
+    width: 20%;
+    height: 20rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 5px 30px 1px black;
+}
+
+.contact form input {
+    width: 20rem;
+    height: 6vh;
+    border: none;
+    background-color: #DBB8A8;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid grey;
+    box-shadow: 0 0 5px grey;
+
+}
+
+.contact form textarea {
+    width: 20rem;
+    height: 5rem;
+    background-color: #DBB8A8;
+    border-radius: 3px;
+    resize: none;
+    outline: none;
+    border: 1px solid grey;
+    box-shadow: 0 0 6px grey;
+}
+
+.contact form label {
+    font-family: 'Jeju Hallasan';
+
+}
+
+footer {
+    background-image: url(../img/fakhar-7.jfif);
+    width: 100%;
+    height: 40vh;
+}
+
+.footer-bg {
+    width: 100%;
+    height: 100%;
+    background-color: #ffeee6b1;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+
+.info ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    gap: 1rem;
+
+}
+
+.info li a {
+    font-family: 'Jeju Hallasan';
+    text-decoration: none;
+    color: black;
+}
+
+.info img {
+    width: 100px;
+    height: 60px;
+
+}
+
+.footer-bg h6 {
+    text-align: center;
+    font-size: medium;
+}
+
+
+.gallery-1-1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.gallery-1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+}
+
+.gallery-1-1 h2 {
+    font-family: 'Jeju Hallasan';
+    font-size: 3rem;
+    width: 85%;
+    padding-top: 2rem;
+    margin-bottom: 0;
+}
+
+.gallery-1-1 p {
+    width: 60%;
+}
+
+.gallery-1-1 a {
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+    width: 25%;
+    height: 10%;
+    cursor: pointer;
+    padding: 1%;
+    font-family: 'Jeju Hallasan';
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.9s ease;
+}
+
+.gallery-1-1 a:hover {
+    background-color: #000000bd;
+    color: #FFEEE6;
+
+}
+
+.carousel .item img {
+    width: 20rem;
+    height: 25rem;
+    box-shadow: 0px 5px 30px 1px black;
+    border: 3px solid black;
+}
+
+.carousel {
+    position: relative;
+    width: 300px;
+    margin-top: 6rem;
+}
+
+.item {
+    position: relative;
+}
+
+
+
+
+.previous,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 100%;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background 0.2s ease-in-out;
+}
+
+.previous:hover,
+.next:hover {
+
+    background: rgba(181, 179, 179, 0.5);
+}
+
+.previous {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.sec-gallery {
+
+    background-image: url(../img/zellij.jfif);
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+
+.hero-gallery-1 {
+    margin-top: 3rem;
+    background-color: #ffeee6a7;
+    width: 100%;
+    height: 100%;
+}
+
+.hero-gallery-2 {
+    margin-top: 3rem;
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-gallery-1 h3 {
+    font-family: 'Jeju Hallasan';
+    font-size: 4rem;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+
+.video {
+    margin-top: 3rem !important;
+    background-color: #ffeee6a7;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-bottom: 3rem !important;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem !important;
+
+}
+
+.video iframe {
+    width: 100%;
+    border-radius: .5rem;
+
+
+}
+
+.hero-workshop {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-workshop h2 {
+    font-family: 'Jeju Hallasan';
+    font-size: 2rem;
+    width: 80%;
+    text-align: start;
+
+    padding-top: 2rem;
+
+}
+
+.hero-workshop p {
+    font-size: 1rem;
+    width: 60%;
+    text-align: start;
+}
+
+.work-left {
+    width: 40%;
+    height: auto;
+}
+
+.hero-workshop img {
+    width: 30%;
+    margin-top: 5rem;
+    height: 70vh;
+    box-shadow: 0px 15px 30px 1px black;
+    border: 2px solid black;
+
+}
+
+.hero-cart {
+    width: 100%;
+    height: 110vh;
+}
+
+.carts {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.cart {
+    background-color: #DBB8A8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Jeju Hallasan';
+    padding: 1rem;
+    width: min-content;
+    border-radius: .5rem;
+
+}
+
+.cart img {
+
+    width: 15rem;
+    height: 15rem;
+    border-radius: 5px;
+}
+
+.cart p {
+    width: 80%;
+    text-align: center;
+}
+
+.cart button {
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+    width: 80%;
+    height: 10%;
+    cursor: pointer;
+    border: none;
+    padding: 5%;
+    font-family: 'Jeju Hallasan';
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.9s ease;
+}
+
+.cart button:hover {
+    background-color: #000000bd;
+    color: #FFEEE6;
+}
+
+.hero-cart h2 {
+    font-family: 'Jeju Hallasan';
+    font-size: 3rem;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 2rem !important;
+    margin-bottom: 2rem !important;
+
+
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    overflow-y: hidden;
+}
+
+.popup-content {
+    position: absolute;
+    font-family:'jeju Hallasan';
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #FFEEE6;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+.popup-content form{
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+
+}
+.popup-content h3{
+text-align: center;
+
+}
+
+.popup-content form input{
+    width: 20rem;
+    height: 6vh;
+    border: none;
+    background-color: #DBB8A8;
+    border-radius: 3px;
+    outline: none;
+    border: 1px solid rgb(0, 0, 0);
+    box-shadow: 0 0 5px grey;
+}
+.popup-content form input::placeholder{
+font-weight: bold;
+}
+
+.popup-content form button {
+    background-color: transparent;
+    color: #000000;
+    text-align: center;
+    width: 50%;
+    height: 10%;
+    cursor: pointer;
+    margin: auto;
+    border: none;
+    padding: 3%;
+    margin-top: 1rem !important;
+    font-family: 'Jeju Hallasan';
+    font-size: larger;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 7px;
+    transition: background-color 0.9s ease;
+}
+
+.popup-content form button:hover {
+    background-color: #000000bd;
+    color: #FFEEE6;
+}
+
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}

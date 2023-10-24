@@ -4,11 +4,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
     <title>Mucem</title>
+    <link rel="icon" href="assets/img/logo.png">
 </head>
 
 <body>
+    <!-- start header -->
+    <header>
+        <div class="desktop-header">
+            <img class="logo" src="assets/img/logo.png" alt="">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Gallery.html">Gallery</a></li>
+                <li><a href="">Workshop</a></li>
+            </ul>
+        </div>
 
+
+    </header>
+    <!-- end header -->
+    <!--start hero workshop-->
+    <section class="hero-workshop">
+        <div class="work-left">
+            <h2>In this Part You Can Find A Lot
+                Of Workshops And Book it</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Ipsam, maxime obcaecati perferendis id optio repellat est
+                voluptatum vel </p>
+        </div>
+
+        <img src="assets/img/work-6.jfif" alt="">
+
+    </section>
+    <!--end hero workshop-->
+
+    <!--start workshop cart-->
+    <section class="hero-cart">
+        <h2>Our Workshops
+            On the Week </h2>
+        <div class="carts">
+            <div class="cart">
+                <img src="assets/img/work-4.jfif" alt="">
+                <h3>Workshop with hassan</h3>
+                <p>in this workshop you can learn the basics about pottery</p>
+                <button class="open-popup">Book it for now</button>
+
+            </div>
+            <div class="cart">
+                <img src="assets/img/work-10.jfif" alt="">
+                <h3>Workshop with ahmed</h3>
+                <p>in this workshop you can learn the basics about pottery</p>
+                <button class="open-popup">Book it for now</button>
+
+            </div>
+            <div class="cart">
+                <img src="assets/img/work-5.jfif" alt="">
+                <h3>Workshop with younes</h3>
+                <p>in this workshop you can learn the basics about pottery</p>
+                <button class="open-popup">Book it for now</button>
+
+            </div>
+            <div class="cart">
+                <img src="assets/img/work-8.jfif" alt="">
+                <h3>Workshop with jalal</h3>
+                <p>in this workshop you can learn the basics about pottery</p>
+                <button class="open-popup">Book it for now</button>
+
+            </div>
+
+        </div>
+    </section>
+    <!--end workshop cart-->
+
+
+    <!--start footer-->
+    <footer>
+        <div class="footer-bg">
+            <div class="info">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="workshop.html">Workshop</a></li>
+                </ul>
+                <a href="index.html">
+                    <img src="assets/img/logo.png" alt="">
+                </a>
+            </div>
+
+            <h6>©2023 MUCEM Limited. All Rights Reserved.</h6>
+        </div>
+
+    </footer>
+    <!--end footer-->
+    <!--popup-->
+
+    <div class="popup" id="popup-1">
+        <div class="popup-content">
+            <span class="close-popup" onclick="closePopup('popup-1')">&times;</span>
+            <h3>Book it right Now</h3>
+            <form>
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" placeholder="anas" required>
+                <div class="error-message" id="first-name-error"></div>
+
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" placeholder="nakhli" required>
+                <div class="error-message" id="last-name-error"></div>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="anasc00ding@gmail.com" required>
+                <div class="error-message" id="email-error"></div>
+
+                <label for="card-id">Card ID</label>
+                <input type="text" id="card-id" placeholder="HH 193918" required>
+                <div class="error-message" id="card-id-error"></div>
+
+                <label for="phone-number">Phone Number</label>
+                <input type="text" id="phone-number" placeholder="+212 601992205" required>
+                <div class="error-message" id="phone-number-error"></div>
+
+                <button>Book it</button>
+            </form>
+        </div>
+    </div>
+    <!--end popup-->
+
+    <script src="assets/js/costum.js"></script>
 </body>
 
 </html>
