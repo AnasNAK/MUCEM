@@ -12,10 +12,9 @@ body {
 }
 
 header {
-    background: linear-gradient(to bottom, #FFEEE6, #c7bbb5, transparent);
+    background:#FFEEE6 ;
     width: 100vw;
     height: 12vh;
-    box-shadow: 0px 5px 30px 1px black;
     position: fixed;
     z-index: 10;
 
@@ -113,6 +112,8 @@ header .logo {
     border-radius: 7px;
     transition: background-color 0.9s ease;
     padding: 9px;
+    border: 2px solid black;
+
 }
 
 .Discover a:hover {
@@ -503,6 +504,7 @@ footer {
     text-decoration: none;
     border-radius: 7px;
     transition: background-color 0.9s ease;
+    border: 2px solid black;
 }
 
 .gallery-1-1 a:hover {
@@ -701,6 +703,7 @@ footer {
     font-family: 'Jeju Hallasan';
     font-size: larger;
     font-weight: bold;
+    border: 2px solid black;
     text-decoration: none;
     border-radius: 7px;
     transition: background-color 0.9s ease;
@@ -785,6 +788,7 @@ font-weight: bold;
     font-size: larger;
     font-weight: bold;
     text-decoration: none;
+    border: 2px solid black;
     border-radius: 7px;
     transition: background-color 0.9s ease;
 }
