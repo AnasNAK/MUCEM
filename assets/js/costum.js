@@ -1,3 +1,25 @@
+document.addEventListener('DOMContentLoaded', function () {
+    const burgerImage = document.querySelector('.burger');
+    const mobileHeader = document.querySelector('.mobile-header');
+    const closeButton = document.querySelector('.close-menu');
+
+    burgerImage.addEventListener('click', function () {
+        if (mobileHeader.style.display === 'block') {
+            mobileHeader.style.display = 'none';
+        } else {
+            mobileHeader.style.display = 'block';
+        }
+    });
+    closeButton.addEventListener('click', function () {
+
+        mobileHeader.style.display = 'none';
+    });
+
+});
+
+
+
+
 const downIcons = document.querySelectorAll('.down');
 const upIcons = document.querySelectorAll('.up');
 const answers = document.querySelectorAll('.answer');
@@ -79,7 +101,7 @@ function validateForm() {
     const emailInput = document.getElementById('email');
     const cardInput = document.getElementById('card-id');
     const numberInput = document.getElementById('phone-number');
-    const popup = document.querySelector('.popup');
+
 
     const nameRegex = /^[A-Za-z]+$/;
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-z]{3}$/;
@@ -126,8 +148,9 @@ function validateForm() {
 }
 
 const form = document.querySelector('form');
+
 form.addEventListener('submit', function (event) {
-    event.preventDefault(); 
+    event.preventDefault();
 
 
 
@@ -137,3 +160,7 @@ form.addEventListener('submit', function (event) {
         popup.style.display = 'none';
     }
 });
+
+
+
+

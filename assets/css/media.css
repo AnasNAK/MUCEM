@@ -1,0 +1,1506 @@
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+    header {
+        height: 8vh;
+    }
+
+    header .logo {
+        width: auto;
+        height: 50px;
+    }
+
+    .desktop-header {
+        height: 8vh;
+    }
+
+
+
+    .sec-1 {
+        justify-content: space-around;
+        padding-top: 9vh;
+    }
+
+
+    .sec-1 .left .tajin {
+        display: none;
+    }
+
+    .sec-1 .left p {
+        width: 90%;
+
+    }
+
+    .sec-1 .left h1 {
+        display: block;
+        font-family: 'Jeju Hallasan';
+        font-size: 3rem;
+        width: 100%;
+
+    }
+
+    .left-left {
+        width: 40vw;
+    }
+
+    .right .right-1 .tajin-2 {
+        display: block;
+        width: 100%;
+        height: 50vh;
+        border: 6px solid white;
+    }
+
+    .Discover a {
+
+        width: 80%;
+
+
+    }
+
+    .Discover {
+        width: max-content;
+    }
+
+    .right .first {
+        display: none;
+    }
+
+    .right .second {
+        display: none;
+    }
+
+    .right .right-1 h1 {
+        display: none;
+    }
+
+    .sec-2 {
+        height: auto;
+
+
+    }
+
+    .sec-2-1 {
+
+        height: auto;
+
+    }
+
+    .sec-2-2 {
+
+        padding-bottom: 3rem;
+    }
+
+    .sec-2-title {
+        font-family: 'Jeju Hallasan';
+        font-size: 4rem;
+        width: auto;
+        text-align: center;
+        padding-top: 2rem;
+
+    }
+
+    .sec-2-art {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+
+    }
+
+    .sec-2-left img {
+
+        width: 100%;
+    }
+
+    .sec-2-left p {
+
+        width: 60%;
+
+    }
+
+    .sec-2-right {
+        width: 55%;
+        height: auto;
+        padding: 1rem 1rem 0rem 1rem;
+        border-radius: 1rem;
+
+    }
+
+    .right-left img {
+        width: 80%;
+        height: 35%;
+    }
+
+    .right-right img {
+        width: 80%;
+        height: 20%;
+
+    }
+
+    .right-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+
+    .sec-3-1 h2 {
+        width: 70%;
+
+    }
+
+
+    .question img {
+        width: 9%;
+
+
+    }
+
+    .hero-FAQ {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FAQ {
+        width: 60vw;
+
+    }
+
+    .FAQ .box {
+        margin: auto;
+
+    }
+
+    .sec-4 {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .contact form input {
+        width: 20rem;
+        height: 3vh;
+
+    }
+
+    footer {
+        background-image: url(../img/fakhar-7.jfif);
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-bg h6 {
+        padding-bottom: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .carousel .item img {
+        height: 20rem;
+
+    }
+
+    .gallery-1-1 h2 {
+
+        font-size: 2rem;
+
+
+    }
+
+    .gallery-1-1 p {
+        width: 70%;
+    }
+
+    .gallery-1-1 a {
+
+        width: 30%;
+        padding: 9px;
+
+    }
+
+    .hero-gallery-2 {
+
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .video {
+        margin-top: 3rem !important;
+        background-color: #ffeee6a7;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 3rem !important;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem !important;
+
+    }
+
+    .video iframe {
+        width: 100%;
+        border-radius: .5rem;
+
+
+    }
+
+    .hero-workshop {
+
+        height: auto;
+
+    }
+
+    .hero-workshop h2 {
+        font-size: 1.8rem;
+        width: 73%;
+
+    }
+
+    .hero-workshop p {
+        width: 73%;
+
+    }
+
+
+    .work-left {
+        width: 50%;
+
+    }
+
+
+    .hero-workshop img {
+        margin-top: 6rem;
+        height: auto;
+
+    }
+
+    .hero-cart {
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+    }
+
+
+    .carts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+    }
+
+    .first-work {
+
+        justify-content: space-around;
+        width: 100vw;
+
+    }
+
+    .second-work {
+
+        width: 100vw;
+        justify-content: space-around;
+
+    }
+
+    .hero-cart h2 {
+
+        font-size: 2rem;
+        width: 25%;
+
+    }
+
+    .popup-content form input {
+        height: 3vh;
+    }
+
+    .popup-content form button {
+        padding: 2%;
+    }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    header {
+        height: 8vh;
+    }
+
+    header .logo {
+        width: auto;
+        height: 50px;
+    }
+
+    .desktop-header {
+        height: 8vh;
+    }
+
+
+
+    .sec-1 {
+        justify-content: space-around;
+        padding-top: 9vh;
+    }
+
+
+    .sec-1 .left .tajin {
+        display: none;
+    }
+
+    .sec-1 .left p {
+        width: 100%;
+        font-size: small;
+
+    }
+
+    .sec-1 .left h1 {
+        display: block;
+        font-family: 'Jeju Hallasan';
+        font-size: 2rem;
+        width: 100%;
+
+    }
+
+    .left-left {
+        width: 40vw;
+    }
+
+    .right .right-1 .tajin-2 {
+        display: block;
+        width: 100%;
+        height: 40vh;
+        border: 6px solid white;
+    }
+
+    .Discover a {
+
+        width: 40%;
+    }
+
+    .Discover img {
+        width: 40%;
+    }
+
+    .Discover {
+        width: max-content;
+    }
+
+    .right .first {
+        display: none;
+    }
+
+    .right .second {
+        display: none;
+    }
+
+    .right .right-1 h1 {
+        display: none;
+    }
+
+    .sec-2 {
+        height: auto;
+
+    }
+
+    .sec-2-1 {
+
+        height: auto;
+
+    }
+
+    .sec-2-2 {
+
+        padding-bottom: 3rem;
+    }
+
+    .sec-2-title {
+        font-family: 'Jeju Hallasan';
+        font-size: 3rem;
+        width: auto;
+        text-align: center;
+        padding-top: 2rem;
+
+    }
+
+    .sec-2-art {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+
+    }
+
+    .sec-2-left img {
+
+        width: 100%;
+    }
+
+    .sec-2-left p {
+
+        width: 70%;
+
+    }
+
+    .sec-2-right {
+        width: 65%;
+        height: auto;
+        padding: 1rem 1rem 0rem 1rem;
+        border-radius: 1rem;
+
+    }
+
+    .right-left img {
+        width: 80%;
+        height: 35%;
+    }
+
+    .right-right img {
+        width: 80%;
+        height: 20%;
+
+    }
+
+    .right-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+
+    .sec-3-1 h2 {
+        width: 70%;
+        font-size: 2.5rem;
+
+    }
+
+
+    .question img {
+        width: 9%;
+
+
+    }
+
+    .hero-FAQ {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FAQ {
+        width: 60vw;
+
+    }
+
+    .FAQ .box {
+        margin: auto;
+
+    }
+
+    .sec-4 {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .contact form input {
+        width: 20rem;
+        height: 3vh;
+
+    }
+
+    footer {
+        background-image: url(../img/fakhar-7.jfif);
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-bg h6 {
+        padding-bottom: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .carousel .item img {
+        height: 20rem;
+
+    }
+
+    .gallery-1-1 h2 {
+        font-size: 1.4rem;
+    }
+
+    .gallery-1-1 p {
+        width: 100%;
+        font-size: .9rem;
+    }
+
+    .gallery-1-1 a {
+
+        width: 50%;
+        padding: 9px;
+
+    }
+
+    .hero-gallery-2 {
+
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .hero-gallery-1 h3 {
+        font-size: 2rem;
+    }
+
+    .video {
+        margin-top: 3rem !important;
+        background-color: #ffeee6a7;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 3rem !important;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem !important;
+
+    }
+
+    .video iframe {
+        width: 100%;
+        border-radius: .5rem;
+
+
+    }
+
+    .hero-workshop {
+
+        height: auto;
+
+    }
+
+    .hero-workshop h2 {
+        font-size: 1.8rem;
+        width: 76%;
+
+    }
+
+    .hero-workshop p {
+        width: 100%;
+
+    }
+
+
+    .work-left {
+        width: 50%;
+
+    }
+
+
+    .hero-workshop img {
+        margin-top: 6rem;
+        height: auto;
+
+    }
+
+    .hero-cart {
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+
+    }
+
+
+    .carts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+
+    }
+
+    .first-work {
+
+        justify-content: space-around;
+        width: 100vw;
+
+    }
+
+    .second-work {
+
+        width: 100vw;
+        justify-content: space-around;
+
+
+
+    }
+
+    .hero-cart h2 {
+
+        font-size: 1.9rem;
+        width: 35%;
+
+    }
+
+    .popup-content form input {
+        height: 3vh;
+    }
+
+    .popup-content form button {
+        padding: 2%;
+    }
+
+}
+
+@media screen and ( min-width: 570px) and ( max-width: 767px) {
+
+    header {
+        height: 8vh;
+    }
+
+    header .logo {
+        width: auto;
+        height: 50px;
+
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+        padding-left: 5%;
+    }
+
+    .desktop-header ul {
+        display: none;
+    }
+
+    .desktop-header {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        gap: 65%;
+        height: 8vh;
+
+    }
+
+    .mobile-header {
+        position: absolute;
+        padding-top: 1rem;
+        display: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: #EDDAD2;
+        width: 9rem;
+        top: 0;
+        border-radius: 8px;
+        display: none;
+       
+
+    }
+
+    .close-menu {
+        position: absolute;
+        top: 0;
+        left: 7rem;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    .mobile-header ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        gap: 1rem;
+
+
+    }
+
+    .mobile-header li a {
+        font-family: 'jeju hallasan';
+        text-decoration: none;
+        color: black;
+    }
+
+
+    .sec-1 {
+        justify-content: space-around;
+        padding-top: 9vh;
+    }
+
+
+    .sec-1 .left .tajin {
+        display: none;
+    }
+
+    .sec-1 .left p {
+        width: 100%;
+        font-size: small;
+
+    }
+
+    .sec-1 .left h1 {
+        display: block;
+        font-family: 'Jeju Hallasan';
+        font-size: 2rem;
+        width: 100%;
+
+    }
+
+    .left-left {
+        width: 40vw;
+    }
+
+    .right .right-1 .tajin-2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 6px solid white;
+    }
+
+    .Discover a {
+
+        width: max-content;
+        font-size: small;
+    }
+
+    .Discover img {
+        width: 40%;
+    }
+
+    .Discover {
+        margin: auto;
+        width: 50vw;
+    }
+
+    .right .first {
+        display: none;
+    }
+
+    .right .second {
+        display: none;
+    }
+
+    .right .right-1 h1 {
+        display: none;
+    }
+
+    .sec-2 {
+        height: auto;
+
+    }
+
+    .sec-2-1 {
+
+        height: auto;
+
+    }
+
+    .sec-2-2 {
+
+        padding-bottom: 3rem;
+    }
+
+    .sec-2-title {
+        font-family: 'Jeju Hallasan';
+        font-size: 3rem;
+        width: auto;
+        text-align: center;
+        padding-top: 2rem;
+
+    }
+
+    .sec-2-art {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+
+    }
+
+    .sec-2-left img {
+
+        width: 100%;
+    }
+
+    .sec-2-left p {
+
+        width: 70%;
+
+    }
+
+    .sec-2-right {
+        width: 55%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 1rem 0rem 1rem;
+        border-radius: 1rem;
+        padding-bottom: 1rem;
+
+    }
+
+    .right-left img {
+        width: 100%;
+        height: 35%;
+    }
+
+    .right-right img {
+        width: 100%;
+        height: 20%;
+
+    }
+
+    .right-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+
+    .sec-3-1 h2 {
+        width: 70%;
+        font-size: 2.5rem;
+
+    }
+
+
+    .question img {
+        width: 9%;
+
+
+    }
+
+    .hero-FAQ {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FAQ {
+        width: 60vw;
+
+    }
+
+    .FAQ .box {
+        margin: auto;
+
+    }
+
+    .sec-4 {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .sec-4 h2 {
+        font-size: 2rem;
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .contact form input {
+        width: 20rem;
+        height: 5vh;
+
+    }
+
+    footer {
+        background-image: url(../img/fakhar-7.jfif);
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-bg h6 {
+        padding-bottom: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .carousel .item img {
+        width: 15rem;
+        height: 15rem;
+
+    }
+
+    .gallery-1-1 h2 {
+        font-size: 1.3rem;
+    }
+
+    .gallery-1-1 p {
+        width: 100%;
+        font-size: .9rem;
+    }
+
+    .gallery-1-1 a {
+
+        width: 50%;
+        padding: 9px;
+        font-size: medium;
+
+    }
+
+    .hero-gallery-2 {
+
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .hero-gallery-1 h3 {
+        font-size: 2rem;
+    }
+
+    .video {
+        margin-top: 3rem !important;
+        background-color: #ffeee6a7;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 3rem !important;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem !important;
+
+    }
+
+    .video iframe {
+        width: 100%;
+        border-radius: .5rem;
+
+
+    }
+
+    .hero-workshop {
+
+        height: auto;
+
+    }
+
+    .hero-workshop h2 {
+        font-size: 1.3rem;
+        width: 76%;
+
+    }
+
+    .hero-workshop p {
+        width: 100%;
+
+    }
+
+
+    .work-left {
+        width: 50%;
+
+    }
+
+
+    .hero-workshop img {
+        margin-top: 6rem;
+        height: auto;
+
+    }
+
+    .hero-cart {
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+
+    }
+
+
+    .carts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+
+    }
+
+    .first-work {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        gap: 2rem;
+
+    }
+
+    .second-work {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        justify-content: space-around;
+        gap: 2rem;
+
+
+
+    }
+
+    .hero-cart h2 {
+
+        font-size: 1.9rem;
+        width: 35%;
+
+    }
+
+    .popup-content form input {
+        height: 3vh;
+    }
+
+    .popup-content form button {
+        padding: 2%;
+    }
+
+
+
+}
+@media screen and  ( max-width: 569px) {
+
+    header {
+        height: 9vh;
+    }
+
+    header .logo {
+        width: auto;
+        height: 50px;
+
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+        padding-left: 5%;
+    }
+
+    .desktop-header ul {
+        display: none;
+    }
+
+    .desktop-header {
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        gap: 65%;
+        height: 8vh;
+
+    }
+
+    .mobile-header {
+        position: absolute;
+        padding-top: 1rem;
+        display: none;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background: #EDDAD2;
+        width: 9rem;
+        top: 0;
+        border-radius: 8px;
+        display: none;
+       
+
+    }
+
+    .close-menu {
+        position: absolute;
+        top: 0;
+        left: 7rem;
+        cursor: pointer;
+        margin-top: 5px;
+    }
+
+    .mobile-header ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        gap: 1rem;
+
+
+    }
+
+    .mobile-header li a {
+        font-family: 'jeju hallasan';
+        text-decoration: none;
+        color: black;
+    }
+
+
+    .sec-1 {
+        justify-content: space-around;
+        padding-top: 9vh;
+    }
+
+
+    .sec-1 .left .tajin {
+        display: none;
+    }
+
+    .sec-1 .left p {
+        width: 100%;
+        font-size: x-small;
+
+    }
+
+    .sec-1 .left h1 {
+        display: block;
+        font-family: 'Jeju Hallasan';
+        font-size: 1.5rem;
+        width: 100%;
+
+    }
+
+    .left-left {
+        width: 40vw;
+    }
+
+    .right .right-1 .tajin-2 {
+        display: block;
+        width: 100%;
+        height: auto;
+        border: 6px solid white;
+    }
+
+    .Discover a {
+
+        width: max-content;
+        font-size: x-small;
+    }
+
+    .Discover img {
+        width: 30%;
+    }
+
+    .Discover {
+        margin: auto;
+        width: 50vw;
+    }
+
+    .right .first {
+        display: none;
+    }
+
+    .right .second {
+        display: none;
+    }
+
+    .right .right-1 h1 {
+        display: none;
+    }
+
+    .sec-2 {
+        height: auto;
+
+    }
+
+    .sec-2-1 {
+
+        height: auto;
+
+    }
+
+    .sec-2-2 {
+
+        padding-bottom: 3rem;
+    }
+
+    .sec-2-title {
+        font-family: 'Jeju Hallasan';
+        font-size: 2rem;
+        width: auto;
+        text-align: center;
+        padding-top: 2rem;
+
+    }
+
+    .sec-2-art {
+        flex-direction: column;
+        gap: 2rem;
+        align-items: center;
+
+    }
+
+    .sec-2-left img {
+
+        width: 100%;
+    }
+
+    .sec-2-left p {
+
+        width: 70%;
+        font-size: medium;
+
+    }
+
+    .sec-2-right {
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 1rem 1rem 0rem 1rem;
+        border-radius: 1rem;
+        padding-bottom: 1rem;
+        gap:4rem;
+
+    }
+
+    .right-left img {
+        width: 100%;
+        height: 35%;
+    }
+
+    .right-right img {
+        width: 100%;
+        height: 20%;
+
+    }
+
+    .right-right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+    }
+
+
+
+    .sec-3-1 h2 {
+        width: 70%;
+        font-size: 1.5rem;
+
+    }
+
+
+    .question img {
+        width: 9%;
+
+
+    }
+
+    .hero-FAQ {
+        gap: 1rem;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .FAQ {
+        width: 60vw;
+
+    }
+
+    .FAQ .box {
+        margin: auto;
+        width: 100%;
+
+    }
+
+    .sec-4 {
+        height: auto;
+        margin-bottom: 2rem;
+    }
+
+    .sec-4 h2 {
+        font-size: 2rem;
+        width: max-content;
+    }
+
+    .contact img {
+        display: none;
+    }
+
+    .contact form input {
+        width: 20rem;
+        height: 5vh;
+
+    }
+
+    footer {
+        background-image: url(../img/fakhar-7.jfif);
+        width: 100%;
+        height: auto;
+    }
+
+    .footer-bg h6 {
+        padding-bottom: 1rem;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .carousel .item img {
+        width: 10rem;
+        height: 10rem;
+
+    }
+
+    .gallery-1-1 h2 {
+        margin-top: 3rem;
+        font-size: .8rem;
+    }
+
+    .gallery-1-1 p {
+        width: 100%;
+        font-size: .7rem;
+    }
+
+    .gallery-1-1 a {
+
+        width: 50%;
+        padding: 9px;
+        font-size: x-small;
+
+    }
+
+    .hero-gallery-2 {
+
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .hero-gallery-1 h3 {
+        font-size: 2rem;
+    }
+
+    .video {
+        margin-top: 3rem !important;
+        background-color: #ffeee6a7;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        padding: 1rem;
+        border-radius: 1rem;
+        margin-bottom: 3rem !important;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem !important;
+
+    }
+
+    .video iframe {
+        width: 100%;
+        border-radius: .5rem;
+
+
+    }
+
+    .hero-workshop {
+
+        height: auto;
+
+    }
+
+    .hero-workshop h2 {
+        margin-top: 4rem;
+        font-size: 1rem;
+        width: 76%;
+
+    }
+
+    .hero-workshop p {
+        width: 100%;
+        font-size: x-small;
+
+    }
+
+
+    .work-left {
+        width: 50%;
+
+    }
+
+
+    .hero-workshop img {
+        margin-top: 6rem;
+        height: auto;
+
+    }
+
+    .hero-cart {
+        width: 100%;
+        height: auto;
+        padding-bottom: 2rem;
+
+    }
+
+
+    .carts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+
+
+    }
+
+    .first-work {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        gap: 2rem;
+
+    }
+
+    .second-work {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        justify-content: space-around;
+        gap: 2rem;
+
+
+
+    }
+
+    .hero-cart h2 {
+
+        font-size: 1.2rem;
+        width: 35%;
+
+    }
+
+    .popup-content form input {
+        height: 3vh;
+        width: 14rem;
+    }
+
+    .popup-content form button {
+        padding: 2%;
+    }
+
+
+
+}
